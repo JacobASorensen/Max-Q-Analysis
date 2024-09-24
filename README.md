@@ -34,7 +34,7 @@ For the theoretical-Q part of the model I wanted to see what would happen if the
 ### Air Density Estimation
 The other aspect of the Dynamic Pressure equation is air density. Air density can be fairly easily estimated using altitude.
 
-I used this equation and constants which I [obtained from wikipedia](https://en.wikipedia.org/wiki/Density_of_air#Variation_with_altitude).
+I used this equation which I [obtained from wikipedia](https://en.wikipedia.org/wiki/Density_of_air#Variation_with_altitude). The associated constants that I used are also listed on that page.
 
 ![air density function](images/air_density_function.png)
 
@@ -52,7 +52,8 @@ I then calculated dynamic pressure using the real velocity data,
 
 ![alt text](images/dynamic_pressure_estimated.png)
 
-and the theoretical velocity had the Falcon-9 not throttled down.
+and the theoretical velocity, had the Falcon-9 not throttled down.
+
 ![alt text](images/dynamic_pressure_theoretical.png)
 
 
@@ -68,6 +69,8 @@ This really helps to fully understand the reason for the throttle down. Had they
 
 ## Conclusion
 
-This was a very enjoyable exercise in data acquisition and analysis. I think it is very cool that SpaceX shows telemetry data for their launches. I think it is super cool that with just velocity and altitude you can estimate something as seemingly complex as Max-Q.
+This was a very enjoyable exercise in data acquisition and analysis. I think it is very cool that SpaceX shows telemetry data for their launches. I also think it is super cool that with just velocity and altitude you can estimate something as seemingly complex as Max-Q.
 
-In the rest of my powerpoint presentation, since I was presenting to other math majors, I discussed the importance of dry mass reduction, differences in engine performance, and other details involved in getting into Low-Earth-Orbit. 
+If you would like to see the data, the [excel file is included](Crew%205%20launch%20data.xlsx) in this github Repo. [The powerpoint I presented with is also here](Mathematics%20of%20Getting%20into%20Orbit.pptx).
+
+In the rest of my powerpoint presentation, since I was presenting to fellow math majors, I discussed the importance of dry mass reduction, differences in engine performance, and other considerations involved in getting into Low-Earth-Orbit. 
